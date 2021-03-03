@@ -58,7 +58,7 @@ h1 {
 }
 
 .grey-txt {
-    color: #5c6a87;
+    color: #73809b;
 }
 
 .blue-txt {
@@ -78,15 +78,23 @@ h1 {
 }
 
 .wrapper {
-    /* Test */
     max-width: 1100px;
     margin: auto;
 }
 
 .small-wrapper {
-    /* Test */
-    max-width: 900px;
+    max-width: 990px;
     margin: auto;
+}
+
+.grey-section {
+    background-color: #f2f5f9;
+    padding: 40px 0px 60px 0px;
+    text-align: center;
+}
+
+.white-section {
+    padding: 50px 0;
 }
 /* End Useful Classes */
 
@@ -96,7 +104,7 @@ h1 {
 /* ########################################################## */
 
 
-/* Header */
+/* HEADER */
 header nav {
     padding: 10px 0;
 }
@@ -151,13 +159,11 @@ header .banner p {
 }
 
 header .banner .register-box {
-    text-align: center;
     background-color: white;
     border-radius: 5px;
     padding: 30px 15px 25px 15px;
-    max-width: 100%;
+    max-width: 81%;
     margin-left: 20px;
-    margin-right: 150px;
 }
 
 header .banner .register-box h3 {
@@ -214,7 +220,31 @@ header .banner .register-box .register-form .google-icon {
 
     h1 {
         font-size: 40px;
+        margin-top: 10%;
     }
 }
-/* End Header */
+/* END HEADER */
+
+
+
+/* MAIN */
+main .grey-section .logo-list li {
+    padding-right: 10px;
+}
+
+main .grey-section .logo-list img {
+    width: 150px;
+}
+
+main img[alt="docker"],
+main img[alt="splunk"] {
+    position: relative;
+    bottom: 2px;
+}
+
+main .grey-section a {
+    color: #0069ff;
+}
+
+
 
