@@ -69,12 +69,20 @@ h1 {
     color: #031c4e;
 }
 
-.font-size-25 {
-    font-size: 25px;
-}
-
 .font-size-13 {
     font-size: 13px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-25 {
+    font-size: 25px;
 }
 
 .wrapper {
@@ -228,23 +236,71 @@ header .banner .register-box .register-form .google-icon {
 
 
 /* MAIN */
+
+/* Logo Section */
 main .grey-section .logo-list li {
     padding-right: 10px;
-}
-
-main .grey-section .logo-list img {
-    width: 150px;
-}
-
-main img[alt="docker"],
-main img[alt="splunk"] {
-    position: relative;
-    bottom: 2px;
+    width: calc( 100% / 6 - 4px );
 }
 
 main .grey-section a {
     color: #0069ff;
 }
+
+@media all and (max-width: 767px) {
+    main .grey-section .logo-list li {
+        width:  calc( 100% / 2 - 4px );
+        max-width: 120px;
+    }
+}
+
+
+/* Configuration Section */
+main .white-section .wrapper p {
+    margin-top: 15px;
+}
+
+main .white-section .small-wrapper {
+    padding: 50px 50px;
+}
+
+main .white-section .small-wrapper .config-list {
+    border-left: 1px solid #73809b78;
+    padding-left: 10px;
+}
+
+main .white-section .small-wrapper .config-list li {
+    margin-bottom: 20px;
+    display: block;
+}
+main .white-section .small-wrapper .config-list a {
+    font-size: 18px;
+    color: #73809b;
+}
+
+main .white-section .small-wrapper img {
+    width: 40px;
+}
+
+main .white-section .small-wrapper h4 {
+    margin: 8px 0;
+}
+
+main .white-section .small-wrapper .info-col {
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 767px) {
+    main .white-section .small-wrapper {
+        padding: 0;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+
 
 
 
