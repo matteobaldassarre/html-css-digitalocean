@@ -1,18 +1,39 @@
 /* General Reset */
 body {
     min-width: 320px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 img {
     width: 100%;
 }
-/* End General Reset */
 
+li {
+    display: inline-block;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fas.fa-chevron-down {
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.fas.fa-bars {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+}
+/* End General Reset */
 
 
 /* Hover FXs */
@@ -21,13 +42,78 @@ img {
 }
 
 .popping:hover {
-    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
 }
 /* Hover FXs */
 
 
+/* Useful Classes */
+.white-txt {
+    color: #fff;
+}
+
+.grey-txt {
+    color: #5c6a87;
+}
+
+.blue-txt {
+    color: #0069ff;
+}
+
+.darkblue-txt {
+    color: #031c4e;
+}
+
+.wrapper {
+    /* Test */
+    max-width: 1100px;
+    margin: auto;
+}
+.small-wrapper {
+    /* Test */
+    max-width: 900px;
+    margin: auto;
+}
+/* End Useful Classes */
+
+
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+
 
 /* Header */
+header nav {
+    padding: 15px 0;
+}
 
+header .logo {
+    max-width: 150px;
+}
+
+header nav ul li a {
+    color: #031c4e;
+    font-weight: 400;
+}
+
+header nav ul li:nth-child(n+2) {
+    padding-left: 15px;
+}
+
+header nav ul li {
+    line-height: 35px;
+}
+
+header nav ul li a:hover,
+header nav ul li .signup-btn:hover {
+    color: #0069ff;
+}
+
+.signup-btn {
+    border: 1px solid #0069ff;
+    color: #0069ff;
+    position: relative;
+    bottom: 2px;
+}
 /* End Header */
 
