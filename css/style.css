@@ -1,0 +1,33 @@
+/* General Reset */
+body {
+    min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+/* End General Reset */
+
+
+
+/* Hover FXs */
+.popping {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.popping:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6);
+}
+/* Hover FXs */
+
+
+
+/* Header */
+
+/* End Header */
+
