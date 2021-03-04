@@ -413,6 +413,27 @@ main .blue-section .wrapper .tab-row a:hover {
 }
 
 /* 2nd Slider Section */
+main .grey-section .small-wrapper .rockerbox {
+    background-color: white;
+    padding: 0 5px;
+}
+
+img[alt="rockerbox-logo"] {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 60px 0px 30px;
+}
+
+main .grey-section .small-wrapper .rockerbox q {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+main .grey-section .small-wrapper .rockerbox a {
+    display: inline-block;
+    padding: 40px 0px 55px;
+}
 
 
 
