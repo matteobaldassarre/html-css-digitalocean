@@ -120,6 +120,10 @@ h1 {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,31,121,1) 0%, rgba(0,41,255,1) 100%);
 }
 
+.darkblue-section {
+    background-color: #031c4e;
+}
+
 .blue-circle,
 .empty-circle {
     width: 10px;
@@ -440,6 +444,135 @@ main .grey-section .small-wrapper .rockerbox a {
 main .blue-section .small-wrapper a {
     margin: 20px 0;
 }
+
+/* END MAIN */
+
+
+
+
+/* FOOTER */
+img[alt="logo-small"] {
+    width: 45px;
+    display: block;
+    padding: 50px 0px 10px;
+}
+footer .darkblue-section{
+    padding-bottom: 50px;
+}
+
+footer h4 {
+    padding-top: 60px;
+}
+
+footer li {
+    margin-top: 10px;
+    display: block;
+}
+
+footer .socialmedias a {
+    font-size: 22px;
+    color: rgba(175, 175, 175, 0.801);
+}
+
+footer .socialmedias li {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+footer .company a,
+footer .products a,
+footer .community a,
+footer .support a {
+    color: rgb(173, 173, 173);
+    font-size: 16px;
+}
+
+.shark-menu {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+.notify-bubble {
+    display: inline-block;
+	background: #fff;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.notify-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 75%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-left-color: #fff;
+	border-right: 0;
+	margin-top: -20px;
+	margin-right: -7px;
+}
+
+footer .shark {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0069ff;
+    display: inline-block;
+    background-image: url(../img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 10px;
+}
+
+.white-circle {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 12px;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    line-height: 3px;
+}
+
+.red-circle {
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+
+.notification-number {
+    display: inline-block;
+    margin-left: 6px;
+    line-height: 20px;
+}
+
+
+/* Media Query Smartphone */
+@media all and (max-width: 767px) {
+    footer .shark {
+        width: 35px;
+        height: 35px;
+        top: 5px;
+    }
+
+    footer .notify-bubble {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+/* END FOOTER */
 
 
 
