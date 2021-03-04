@@ -61,8 +61,16 @@ h1 {
     color: #73809b;
 }
 
+.lightgrey-txt {
+    color: lightgrey;
+}
+
 .blue-txt {
     color: #0069ff;
+}
+
+.aqua-txt {
+    color: rgba(0, 255, 255, 0.849);
 }
 
 .darkblue-txt {
@@ -103,6 +111,28 @@ h1 {
 
 .white-section {
     padding: 50px 0;
+}
+
+.blue-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,31,121,1) 0%, rgba(0,41,255,1) 100%);
+}
+
+.blue-circle,
+.empty-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0069ff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.empty-circle {
+    background-color: transparent;
+    border: 1px solid #0069ff;
 }
 /* End Useful Classes */
 
@@ -206,7 +236,7 @@ header .banner .register-box .register-form .google-icon {
     left: 6px;
 }
 
-/* Media Query */
+/* Media Query  Smartphone*/
 @media all and (max-width: 767px) {
     header .banner .register-box {
         margin: 0;
@@ -219,6 +249,7 @@ header .banner .register-box .register-form .google-icon {
     }
 }
 
+/* Media Query Tablet to Desktops */
 @media all and (min-width: 768px) and (max-width: 1199px) {
     header .banner .register-box {
         margin: 0;
@@ -247,6 +278,7 @@ main .grey-section a {
     color: #0069ff;
 }
 
+/* Media Query Smartphone */
 @media all and (max-width: 767px) {
     main .grey-section .logo-list li {
         width:  calc( 100% / 2 - 4px );
@@ -257,7 +289,7 @@ main .grey-section a {
 
 /* Configuration Section */
 main .white-section .wrapper p {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 main .white-section .small-wrapper {
@@ -290,6 +322,7 @@ main .white-section .small-wrapper .info-col {
     margin-bottom: 10px;
 }
 
+/* Media Query Smartphone */
 @media all and (max-width: 767px) {
     main .white-section .small-wrapper {
         padding: 0;
@@ -297,6 +330,57 @@ main .white-section .small-wrapper .info-col {
     }
 }
 
+/* Slider Section */
+main .grey-section .small-wrapper .slider {
+    padding: 60px 210px 20px 210px;
+    position: relative;
+}
+
+main .grey-section .small-wrapper .slider .fa-chevron-right,
+main .grey-section .small-wrapper .slider .fa-chevron-left {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(-50%, -50%);
+}
+
+main .grey-section .small-wrapper .slider .fa-chevron-left {
+    right: 80%;
+}
+
+/* Media Query Smartphone */
+@media all and (max-width: 767px) {
+    .fa-chevron-left,
+    .fa-chevron-right {
+        display: none;
+    }
+
+    main .grey-section .small-wrapper .slider {
+        padding: 50px 50px 20px 50px;
+    }
+}
+
+/* Feature Section */
+main .white-section .wrapper img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+
+main .white-section .wrapper .info-col {
+    margin-bottom: 15px;
+}
+
+/* Service Tab Section */
+main .blue-section .wrapper .tab-row {
+    margin-top: 15px;
+}
+
+.white-line {
+    height: 30px;
+    width: 95%;
+    border-bottom: 1px solid white;
+}
 
 
 
