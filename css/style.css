@@ -275,7 +275,7 @@ header .banner .register-box .register-form .google-icon {
 /* Logo Section */
 main .grey-section .logo-list li {
     padding-right: 10px;
-    width: calc( 100% / 6 - 4px );
+    width: calc( 100% / 6 - 5px );
 }
 
 main .grey-section a {
@@ -285,7 +285,7 @@ main .grey-section a {
 /* Media Query Smartphone */
 @media all and (max-width: 767px) {
     main .grey-section .logo-list li {
-        width:  calc( 100% / 2 - 4px );
+        width:  calc( 100% / 2 - 5px );
         max-width: 120px;
     }
 }
